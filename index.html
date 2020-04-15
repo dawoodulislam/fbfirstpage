@@ -60,21 +60,21 @@
 				<form action="post" action="index.html">
 					<div class="s_name">
 						<input type="text" name="fname" placeholder="First name" required="Enter Your name">
-						<input type="text" name="surname" placeholder="Surname">
+						<input type="text" name="surname" placeholder="Surname" required="Enter Your name">
 					</div>
 					
 					<div class="s_email">
-						<input type="text" name="mob/mail" placeholder="Mobile number or email address">
+						<input type="text" name="mob/mail" placeholder="Mobile number or email address"required="Enter Your Email or Phone Number">
 					</div>
 					
 					<div class="s_pass">
-						<input type="password" name="pass" placeholder="New password">
+						<input type="password" name="pass" placeholder="New password" required="Enter Password">
 					</div>
 					
 					<div class="s_bd">
 						<label for="birthday">Birthday</label>
 						<!-- <input type="date" name="bdate"> -->
-						<select class="day" name="bdate" id="bdate">
+						<select class="day" name="bdate" id="bdate" required>
 							<option value="0">Day</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -164,7 +164,7 @@
 					
 					<div class="s_gender">
 						<label class="gender" for="gender">Gender</label>
-						<input type="radio" id="female" name="gender" value="female">
+						<input type="radio" id="female" name="gender" value="female" required>
 						<label class="gender1" for="female">Female</label>
 
 						<input type="radio" id="male" name="gender" value="male">
